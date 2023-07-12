@@ -34,10 +34,7 @@ Keyword features
 Time
 
 features
-![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.010.png)![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.011.png)![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.012.png)
 
-**Figure 1** - Shows the components of each recipe feature vector
-![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.013.png)
 
 My recipe vector is hence going to be a **concatenation** of 3 different feature vectors:
 
