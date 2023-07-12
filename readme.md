@@ -1,15 +1,3 @@
-﻿![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.001.png)
-
-ISyE 6740 – Spring 2021
-
-Project Final Report
-
-![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.002.png)
-
-Team Member Name: Mohamed Ghoneim
-
-Project Title: Novel Recipe recommendation
-
 1. **Motivation**
 
 As a result of coronavirus pandemic, more people have been cooking at home than the past. Some surveys conducted among consumers [1] [2] have found that the intention to keep up with home cooking is especially strong among younger demographics. Through this project I would like to encourage the younger demographics to continue to experiment in the kitchen by recommending “novel recipes” that are of interest to them and that they have likely not tried before. This will hopefully help keep the younger demographics engaged and excited to explore new cooking styles.
