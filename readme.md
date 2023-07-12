@@ -1,12 +1,21 @@
-1. **Motivation**
+# Contents
+
+- [Motivation](#motivation)
+- [Problem Statement](#problem-statement)
+- [Data source](#data-source)
+- [Methodology](#methodology)
+- [Evaluation and Final Results](#evaluation-and-final-results)
+  
+
+# Motivation
 
 As a result of coronavirus pandemic, more people have been cooking at home than the past. Some surveys conducted among consumers [1] [2] have found that the intention to keep up with home cooking is especially strong among younger demographics. Through this project I would like to encourage the younger demographics to continue to experiment in the kitchen by recommending “novel recipes” that are of interest to them and that they have likely not tried before. This will hopefully help keep the younger demographics engaged and excited to explore new cooking styles.
 
-1. **Problem Statement**
+# Problem Statement
 
 Today, there are many applications which enable home cooks to explore different recipes and follow laid out instructions to cook desired recipes. So far, applications mostly take only ingredients as an input and recommend a few recipes based on the user’s past activity [3][4]. However, this has the problem of recommending recipes that are very similar to the ones the user has already tried or favorited, and leaves very little room for recommending novel recipes that will help keep the user engaged and excited to try new things. In this project, I will build a “Novel recipe recommendation” application which will balance between recommending novel recipes that are not very familiar to the user, but at the same time have high likelihood of being rated highly by the user.
 
-1. **Data Source:**
+# Data source
 
 The main datasource I will use for my program will be the “Recipe Ingredients and Reviews” dataset [5] from Kaggle. The datasource contains a recipes dataset “recpies.csv” of ~13K unique recipes. Each recipe is identified by a unique “RecipeID”. The dataset also shows the ingredients used, cooking instructions, prep time and number of reviews. The main challenge with this dataset is the difficulty of extracting the useful information out of it because the ingredients, amounts and cooking instructions are in raw text format that requires a lot of pre-processing steps. Even though the datasource already contains a clean version of the dataset, I will not be using the clean version because it does not provide the level of details I need for my analysis. Hence, I will do the data cleaning and feature engineering steps myself.
 
@@ -22,7 +31,7 @@ A second datasource I will be using is “Recipe Ingredient for Knowledge Mining
 
 
 
-**Methodology**
+# Methodology
 
 My goal is to identify novel recipes. To achieve this, I will need to convert each recipe into a feature vector that represents all the information about the recipe. My recipe feature vectors should be created in a way where recipes that are similar to each other should be close to each other in this highly dimensional vector space.
 
@@ -222,8 +231,7 @@ Below is an example prediction for 1 user on multiple recipes and one can observ
 
 
 
-
-1. **Evaluation and Final Results:**
+# Evaluation and Final Results:
 
 **5.1 Evaluating the CRFClassfier**
 
