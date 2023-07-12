@@ -20,17 +20,13 @@ I noted that the reviews dataset contains reviews on recipes that are not presen
 
 A second datasource I will be using is “Recipe Ingredient for Knowledge Mining” dataset [6] from Kaggle. I will use this dataset to train a named entity recognition model to that will help me flag ingredient types and quantities and extract those from the raw text of the ingredients column in “recpies.csv”.
 
-![ref1]
-
-![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.006.png)
-
-1. ![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.007.png)**Methodology**
-
-![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.008.png)My goal is to identify novel recipes. To achieve this, I will need to convert each recipe into a feature vector that represents all the information about the recipe. My recipe feature vectors should be created in a way where recipes that are similar to each other should be close to each other in this highly dimensional vector space.
 
 
-|![](Aspose.Words.11189391-4874-4e4f-8499-81cd5552cb7b.009.png)||||||……………………||||||…………|||
-| :- | :- | :- | :- | :- | :- | :-: | :- | :- | :- | :- | :- | :-: | :- | :- |
+**Methodology**
+
+My goal is to identify novel recipes. To achieve this, I will need to convert each recipe into a feature vector that represents all the information about the recipe. My recipe feature vectors should be created in a way where recipes that are similar to each other should be close to each other in this highly dimensional vector space.
+
+
 Ingredient features
 
 Keyword features
